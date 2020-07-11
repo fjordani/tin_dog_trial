@@ -55,5 +55,34 @@ h1{
 
 .iphone-img{
     width: 60%;
-    transform: rotate(20deg);
+    transform: rotate(25deg);
+}
+
+/* FEATURES SECTION */
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+.feature-box>i{
+    color:#ef8172;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.feature-box>i:hover{
+    color: #ff4c68;
+}
+
+.feature-box>h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-box>p{
+    color: #8f8f8f;
 }
