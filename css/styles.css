@@ -11,13 +11,28 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
 }
 
 .btn{
@@ -56,11 +71,14 @@ h1{
 .iphone-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /* FEATURES SECTION */
 #features{
+    background-color: #ffffff;
     padding: 7% 15%;
+    position: relative;
 }
 
 .feature-box{
@@ -78,27 +96,12 @@ h1{
     color: #ff4c68;
 }
 
-.feature-box>h3{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.feature-box>p{
-    color: #8f8f8f;
-}
-
 /* TESTIMONIAL CAROUSEL */
 
 #testimonials{
     background-color: #ef8172;
     color: #ffffff;
     text-align: center;
-}
-
-.carousel-item>h2{
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
 .carousel-item > img{
@@ -122,4 +125,15 @@ h1{
 #press>img{
     width: 15%;
     margin: 2% 2% 4% 2%;
+}
+
+/* PRICING */
+
+#pricing{
+    padding: 7%;
+    text-align: center;
+}
+
+.col-pricing{
+    padding: 3% 5%;
 }
