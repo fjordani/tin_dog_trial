@@ -138,3 +138,48 @@ p{
 .col-pricing{
     padding: 3% 5%;
 }
+
+
+/* CTA SECTION */
+
+#cta{
+    background-color: #ff4c68;
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta>h3{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+
+#footer{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.contact-channels{
+    margin: 1%;
+}
+
+.contact-channels>i{
+    margin: 1%;
+}
+
+
+/* CUSTOM MEDIA QUERIES */
+
+@media (max-width: 1028px){
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
